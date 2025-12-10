@@ -3,8 +3,9 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function BrainGames\Cli\RunName;
 
-RunName();
+use function BrainGames\BrainEven\RunNumber;
+
+RunNumber();
 
 ?>

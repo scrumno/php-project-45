@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:Quality Gate Status Bugs Code Smells Coverage Duplicated Lines (%)
-[![Actions Status](https://github.com/scrumno/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/scrumno/php-project-45/actions)
 
+[![Actions Status](https://github.com/scrumno/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/scrumno/php-project-45/actions)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=scrumno_php-project-45&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=scrumno_php-project-45)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=scrumno_php-project-45&metric=bugs)](https://sonarcloud.io/summary/new_code?id=scrumno_php-project-45)
@@ -12,3 +12,7 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=scrumno_php-project-45&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=scrumno_php-project-45)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=scrumno_php-project-45&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=scrumno_php-project-45)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=scrumno_php-project-45&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=scrumno_php-project-45)
+
+BRAIN EVEN
+
+[![asciicast](https://asciinema.org/a/RybaG538laTLByC2IsmlWtzPW.svg)](https://asciinema.org/a/RybaG538laTLByC2IsmlWtzPW)
