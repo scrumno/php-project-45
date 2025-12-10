@@ -10,7 +10,7 @@ use function cli\prompt;
 
 function nod(int $a, int $b): int
 {
-    return $a ? nod($b % $a, $a) : $b;
+    return $b !== 0 ? gcd($b, $a % $b) : $a;
 }
 
 function runNod(): void
