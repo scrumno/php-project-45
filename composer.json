@@ -1,14 +1,19 @@
 {
 	"name": "hexlet/code",
-	"description": "My first project",
+	"type": "project",
 	"license": "MIT",
-	"bin": [
-		"bin/brain-games"
-	],
 	"autoload": {
 		"psr-4": {
-			"Hexlet\\Code\\": "src/"
-		}
+			"BrainGames\\": "src/"
+		},
+		"files": [
+			"src/Cli.php"
+		]
 	},
-	"require": {}
+	"require": {
+		"wp-cli/php-cli-tools": "^0.11.19"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^4.0"
+	}
 }
