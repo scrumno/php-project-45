@@ -31,7 +31,7 @@ function runProgression(): void
         line("Question: %s", implode(' ', $progression));
         $answer = prompt("Your answer");
 
-        if ($answer === $correctAnswer) {
+        if ($answer === (string) $correctAnswer) {
             line("Correct!");
         } else {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $correctAnswer);
