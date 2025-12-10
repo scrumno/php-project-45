@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types=1);
 namespace BrainGames\BrainPrime;
 
 use function BrainGames\Engine\greeting;

@@ -1,12 +1,12 @@
 <?php
-
+declare(strict_types=1);
 namespace BrainGames\BrainGcd;
 
 use function BrainGames\Engine\greeting;
 use function cli\line;
 use function cli\prompt;
 
-function nod($a, $b): int
+function nod(int $a, int $b): int
 {
     return $a ? nod($b % $a, $a) : $b;
 }
@@ -27,7 +27,7 @@ function runNod(): void
 
         $userCurrentAnswer = prompt("Your answer");
 
-        if ($userCurrentAnswer == $correctAnswer) {
+        if ($userCurrentAnswer === $correctAnswer) {
             line("Correct!");
         } else {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $userCurrentAnswer, $correctAnswer);

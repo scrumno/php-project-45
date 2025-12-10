@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types=1);
 namespace BrainGames\BrainProgression;
 
 use function BrainGames\Engine\greeting;
@@ -31,7 +31,7 @@ function runProgression(): void
         line("Question: %s", implode(' ', $progression));
         $answer = prompt("Your answer");
 
-        if ($answer == $correctAnswer) {
+        if ($answer === $correctAnswer) {
             line("Correct!");
         } else {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $correctAnswer);
