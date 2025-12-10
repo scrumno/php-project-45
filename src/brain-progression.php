@@ -1,5 +1,7 @@
 <?php
+
 declare(strict_types=1);
+
 namespace BrainGames\BrainProgression;
 
 use function BrainGames\Engine\greeting;
