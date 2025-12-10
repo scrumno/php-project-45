@@ -8,5 +8,5 @@ use function cli\prompt;
 
 function runName(): void
 {
-	greeting();
+    greeting();
 }
