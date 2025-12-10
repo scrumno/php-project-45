@@ -27,7 +27,7 @@ function runNod(): void
 
         $userCurrentAnswer = prompt("Your answer");
 
-        if ($userCurrentAnswer === $correctAnswer) {
+        if ($userCurrentAnswer === (string) $correctAnswer) {
             line("Correct!");
         } else {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $userCurrentAnswer, $correctAnswer);
