@@ -3,8 +3,8 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function BrainGames\BrainGcd\RunNod;
+use function BrainGames\BrainGcd\runNod;
 
-RunNod();
+runNod();
 
 ?>

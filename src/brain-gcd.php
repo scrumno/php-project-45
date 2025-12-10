@@ -11,7 +11,7 @@ function nod($a, $b): int
 	return $a ? nod($b % $a, $a) : $b;
 }
 
-function RunNod(): void
+function runNod(): void
 {
 	$name = greeting();
 

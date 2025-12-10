@@ -6,7 +6,7 @@ use function BrainGames\Engine\greeting;
 use function cli\line;
 use function cli\prompt;
 
-function RunName(): void
+function runName(): void
 {
 	greeting();
 }

@@ -6,7 +6,7 @@ use function BrainGames\Engine\greeting;
 use function cli\line;
 use function cli\prompt;
 
-function RunProgression(): void
+function runProgression(): void
 {
 	$name = greeting();
 

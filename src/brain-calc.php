@@ -6,14 +6,13 @@ use function BrainGames\Engine\greeting;
 use function cli\line;
 use function cli\prompt;
 
-function RunCalc(): void
+function runCalc(): void
 {
 	$name = greeting();
 
 	line('What is the result of the expression?');
 
 	for ($i = 0; $i < 3; $i++) {
-
 		$numberOne = rand(1, 100);
 		$numberTwo = rand(1, 100);
 		$operations = ['+', '-', '*'];
